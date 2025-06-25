@@ -1132,7 +1132,7 @@ def main():
     if not os.path.exists(urls_file):
         print(f"\n📝 Creating example {urls_file} file...")
         with open(urls_file, 'w') as f:
-            f.write("https://3rag.com/poc/wp-config.php.gif\n")
+            f.write("https://3rag.com/poc/wp-config.php.bak\n")
             f.write("http://51vps.sqb360.vip/wp-config.php~\n")
             f.write("# Add more URLs here, one per line\n")
             f.write("# Supported formats: .swp, .json, .env, .ini, .conf, .xml, .php, .gif, .swf, ~\n")
